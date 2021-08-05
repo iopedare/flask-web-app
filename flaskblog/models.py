@@ -1,5 +1,9 @@
 from datetime import datetime
-from flaskblog import db
+from flaskblog import db, login_manager
+
+
+# def load_user(user_id):
+#     return User.query.get
 
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
