@@ -1,7 +1,20 @@
 # flask-web-app
+======================
+
+
+### Clone the repo
 
 ### Set Up
-1. set up virtual environment $ python -m venv venv
-2. $ pip install -r requirements.txt
+1. create a virtual environment 
+```
+$ python -m venv venv
+```
+2. Install the requirements.txt 
+```
+$ pip install -r requirements.txt
+```
 
-### $ python run.py
+### To run the server
+```
+$ python run.py
+```
