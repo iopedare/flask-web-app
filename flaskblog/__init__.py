@@ -1,3 +1,4 @@
+from flaskblog.commands import create_tables
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_bcrypt import Bcrypt
@@ -35,5 +36,7 @@ def create_app(config_class=Config):
 
     from flaskblog.errors.handlers import errors
     app.register_blueprint(errors)
+
+    app.cli.add_command(create_tables)
 
     return app
