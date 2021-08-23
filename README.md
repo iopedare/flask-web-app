@@ -8,7 +8,11 @@
 ```
 $ python -m venv venv
 ```
-2. Install the requirements.txt 
+2. activate the virtual environment
+```
+$ . venv/Scripts/activate
+```
+3. Install the requirements.txt 
 ```
 $ pip install -r requirements.txt
 ```
